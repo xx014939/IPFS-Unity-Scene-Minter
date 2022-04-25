@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: #0a1220;
+    font-family: 'Open Sans', sans-serif;
+}
+#app{
+
+    margin-top: 10px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: black;
+    background: black;
+    border: 1px solid #0ff;
+}
+.form_element{
+    margin-top: 20px;
+}
+.title{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 35PX;
+}
+#success_message{
+    background-color: #c4ffc4;
+    border: 1px solid #0fcf0f;
+    border-radius: 4px;
+    display: none;
+}
+
+.threed-nft-option__option-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.option-button {
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.option-button-selected {
+    background-color: black;
+    color: white;
+}
+
+.btn-primary {
+    color: #0ff;
+    background: black;
+    border: 1px solid #0ff;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #0ff;
+    color: black;
+}
+
+.btn-primary:focus {
+    background: #0ff;
+    color: black;
+}

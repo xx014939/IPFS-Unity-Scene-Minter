@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scene Minter</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+
+  <body>
+        <div class="container">
+            <div class="row">
+                <div class="title">Unity Scene NFT Lazy Minter</div>
+                <div id="app" class="col-md-6 offset-md-3">
+                    <div id="success_message">
+                        
+                    </div>
+                    <div class="form_element">
+                    <input class="form-control type="text" id="input_name" name="name" placeholder="NFT Scene Name">
+                    </div>
+                    <div class="form_element">
+                    <input class="form-control type="text" id="input_description" name="description" placeholder="NFT Scene Description">
+                    </div>
+                    <div class="form_element">
+                        <input class="form-control type="text" id="user_id" name="user_id" placeholder="Wallet ID (from authentication)">
+                    </div>
+                    <div class="form_element">
+                        <input class="form-control type="text" id="pinata_url" name="pinata_url" placeholder="Please paste your pinned scene URL">
+                    </div>
+                    <div class="form_element">
+                    <button class="btn btn-primary btn-lg btn-block" id="submit_button">Submit</button>
+                    </div>
+                </div>
+                <div class="patient" style="color: white; font-size: 20px; margin-top: 10px; display: none;">
+                    Please be patient, minting can take 1-2 mins
+                </div>
+                <div class="success"  style="color: #66ff00; font-size: 24px; margin-top: 10px; display: none;">
+                    SUCCESS!
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="./scene-minter.js"></script>
+  </body>
+</html>
