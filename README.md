@@ -33,7 +33,7 @@ As mentioned previously, you do not need to pin your Asset Bundle to Pinata spec
 
 ## Create Metadata and Mint
 
-Our "Vanilla Minter" folder contains all of the code files you will need to lazy mint your Asset Bundle as an NFT on Rarible. The async function "submit()" handles the Metadata creation and the publishing of the NFT on Rarible.
+Our "Vanilla Minter" folder contains all of the code files you will need to lazy mint your Asset Bundle as an NFT on Rarible. The async function "submit()" handles the Metadata creation and the publishing of the NFT on Rarible. This implementation is a modification of the Moralis Lazy Minter, and will require a Moralis server (free). More info can be found here --> https://moralis.io/how-to-lazy-mint-nfts/
 
 We also send a POST request to our servers after the submit() function is complete, so we can store the Asset Bundles CID on our own servers as well and link this to the users wallet address. You can do this also, but the implementation will be highly dependant on your apps backend structure, so we have left this blank for you.
 
