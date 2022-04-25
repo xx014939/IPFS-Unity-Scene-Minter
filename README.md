@@ -12,9 +12,15 @@ You can modify this as much or as little as you'd like to. For example, you don'
 
 Go to your Unity Package Manager, and install the "AssetBundle Browser"
 
+<img src="/images/ab-package.PNG"/>
+
 After installation open up the browser, and drag and drop your Unity scene into it
 
+<img src="/images/ab-package2.PNG"/>
+
 After building your Asset Bundle navigate to the output directory and retrieve the file which has exactly the same name as your Unity scene. This will be the file that we will pin to Pinata.
+
+<img src="/images/ab-package3.PNG"/>
 
 ## Pinning
 
