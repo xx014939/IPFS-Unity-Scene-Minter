@@ -10,7 +10,7 @@ You can modify this as much or as little as you'd like to. For example, you don'
 
 ## Create an Asset Bundle
 
-Go to your Unity Package Manager, and install the "Bundle Browser"
+Go to your Unity Package Manager, and install the "AssetBundle Browser"
 
 After installation open up the browser, and drag and drop your Unity scene into it
 
