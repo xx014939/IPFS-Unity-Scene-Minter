@@ -1,7 +1,7 @@
 # IPFS-Unity-Scene-Minter
 Mint Unity scenes as NFT's using IPFS, Pinata and Moralis. This scene minter is what we are currently using at Your Meta World. The basic idea is to
 
-1. Create an Asst Bundle from our Unity scene
+1. Create an Asst Bundle from your custom Unity scene
 2. Pin a Unity scene Asset Bundle to Pinata
 3. Append this Pinata URL to your NFT's Metadata
 4. Lazy mint this NFT on Rarible (using the Moralis Rarible plugin)
